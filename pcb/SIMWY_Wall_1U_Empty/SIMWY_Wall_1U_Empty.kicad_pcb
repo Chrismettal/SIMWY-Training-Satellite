@@ -1,0 +1,1221 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 108.2 147.4)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "008a30af-b907-41aa-abbc-c99916a37adc")
+		(at 108.2 66.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "905014f6-2244-4d7f-9627-1a07ad2d95d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "fc9ae7e4-9a4e-4259-8fb7-ae9a060d9e98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f063eb42-ca33-4886-a648-1edf809abf1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5580404-ea06-47c1-a12f-d1252d7d5763")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "959bc965-1cc0-4b99-a4d9-32dd08063d91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8adcf987-9999-4d82-9f42-93899cdf2e47")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "587f6245-999b-46e2-8335-44f9deb1a1f4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "144e46b7-0672-4f5e-833e-3d238c508b7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "78a1d8dd-091b-44b9-879b-55cd9842972b")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "173d370f-4e7e-4935-a5d7-e3ac5c4b7cd3")
+		(at 194.2 122.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "91f2e8ec-f540-4fb1-b5b4-d564cfa26b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "bc1703d0-8116-4767-82e6-e71149159909")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11e09e60-b514-440d-9c87-0279d1fc2cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03a41caa-3f29-4a1c-b32f-afe31ba0d3fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66920a57-7b6e-4f45-be27-24df6f7bf0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0f9f6050-49a8-4d33-8375-7e0cc2aad2ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "c025612c-b19a-443a-9853-c425614c179b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "c5a1b199-eec9-47da-84c2-35c39ecfe0c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "4fe8ebaf-2437-47b6-9226-60806772a1ea")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "ad2c91d5-ae80-4f61-bcdd-bcac99c5c839")
+		(at 194.2 132.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "84d244ef-4ba0-4051-9c8a-e50fc6da6fc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "584fd4ab-e17d-4676-b6e3-d9973a5d01d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c857386f-ef86-496f-8620-3adbb86f98c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8ffda00-880f-4e85-8465-e26fb94eb198")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0ec54b6-56cd-444c-86ee-cde0c933a3a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c6fde544-ad3d-4346-b7da-98ab2b87dd8c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "88e61706-fb0c-4de9-aeba-91a740593226")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "491744bf-8813-4cff-94e3-2668e7c7d54b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "50b083a6-e004-4297-96c0-9064ce901c10")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "adaf9963-c560-4f94-9869-fbbe47c6ea31")
+		(at 194.2 66.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ffc29107-375b-44aa-ae1c-5acb97529f91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "d1d4dcbc-f12a-46da-bded-6856c1fde70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77cbbf09-b33e-4cb2-b7a7-9b532e711485")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54b6bbaf-469f-45b1-bc18-96a458d662a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13243906-f028-4e5f-aaa6-0e0b3c3ef825")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "147a5922-f625-4414-bfa4-cf3fadd8de17")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "905a5310-2b93-4d39-b6ae-e1d449a819f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "a5865cfe-8e8e-4db1-b11c-6661f9654296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "86aa20e7-08b0-4e00-8413-3b68fda54bf6")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "b3a97486-4a38-418d-a413-0d153b6ec732")
+		(at 194.2 77.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3bcc0050-276d-4749-8a78-a3203d37e5e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "c713059d-1a1e-4c85-85bf-5421a4f6b71a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4255cea3-bf62-4ea2-aa29-e435d23f4d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b919fae-0d24-4e85-bd75-548509f858aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e36aed7-8c7e-4ea8-939b-3d43095720a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a374070b-75cc-497c-8a2c-ff3fd381cfe1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "2f045c97-a795-43f5-8142-87665c76dc5c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "e5ce81d3-4a89-4c13-9b8a-3dd30d7c8cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "94521b70-754c-47fa-b615-112139a9df89")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "c01f9240-e40a-476f-8924-14cd4305dfd1")
+		(at 108.2 132.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f17b4708-7a78-4fef-b8cd-2f991ef3f8d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "1957a7c4-9a70-4d09-8b15-8bb42a5f280b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3a7a25a-2542-4d78-b6d5-d85005ff8113")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49e11d3c-e2fd-4f00-8fec-b82e85d24159")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da4377cd-f147-4549-a4e8-9a61e396ca8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7ac3d46e-6e77-4859-bf83-94a05551489e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "f1520360-f8c0-491e-9fa7-42aa1136f873")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "20b5716b-cdaa-4286-aa94-e5327a5e2ecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "89836007-613d-4b86-83f6-28d026843972")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "cb465e7c-8fcc-4ce7-991a-375325ac442c")
+		(at 108.2 122.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "152620ea-bd2d-4cf1-9b61-0ece42b7e685")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "117432df-40f9-4e5f-a9ea-d206a22e9abb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a222728-837a-48f9-8293-34061b374524")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aaaccbf1-af54-4cc0-9f1e-3264136031be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df89fe3b-c96c-4e01-8622-a856fa27eb66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "639c37ad-b967-44e3-8fdf-6a622e21d18e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "000696a9-d0f4-41df-b62a-b6a7eae66c1e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "0aa90ac2-c670-4a1b-ba05-fb3fa7e62925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "866e6759-6ef7-45d8-aee5-9a0d17df83ab")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+		(layer "B.Cu")
+		(uuid "f5a9b304-6d62-4766-8649-045a30483c55")
+		(at 108.2 77.4 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "MK2"
+			(at 0 3.7 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3305ef88-d4dd-41aa-b669-230fe5052ce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 -3.7 0)
+			(layer "B.Fab")
+			(uuid "c428582f-87c9-4a06-a77e-2bc04f0eba47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MeineBib:EigenesMountingHole_3.2mm_M3_Small"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ea8ffd47-368a-4b5d-bb50-46d8aa9e0334")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "590c7978-9426-4705-9955-5cf8b6dfb23f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50f36b6d-aa72-49d0-b565-64087c39e607")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "12065b37-9044-4d5b-b315-09ad0954ec2e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "b38eddf4-f114-4ce1-bcc5-0628e19d1494")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "B.Fab")
+			(uuid "f7365f8e-896d-4631-a8cc-fe63b23f0e6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 1.65)
+			(clearance 1.8)
+			(uuid "b213ebc4-bf12-4fff-ab54-5a8c0cd93cf8")
+		)
+		(model "${MEINE_BIBS}/Screws/Countersunk-M3x10-Screw.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_arc
+		(start 103.2 53.2)
+		(mid 103.668629 52.068629)
+		(end 104.8 51.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "196772c7-1ace-4465-992f-4b6cd40923c9")
+	)
+	(gr_line
+		(start 104.8 51.6)
+		(end 197.6 51.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c25ffcf-7533-4af7-a1b6-be358871a4cb")
+	)
+	(gr_line
+		(start 103.2 53.2)
+		(end 103.2 145.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a81adc1-1bda-4ef1-994a-6dd1f7e625cb")
+	)
+	(gr_line
+		(start 197.6 147.2)
+		(end 104.8 147.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4456c080-ca5e-44bf-8a2c-1e2247c6a25d")
+	)
+	(gr_arc
+		(start 104.8 147.2)
+		(mid 103.668629 146.731371)
+		(end 103.2 145.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "890cdfc0-bde0-4182-9de8-a52b4e3ec285")
+	)
+	(gr_arc
+		(start 199.2 145.6)
+		(mid 198.731371 146.731371)
+		(end 197.6 147.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "aae1f6aa-7c63-4ea5-9221-80cb333f2b80")
+	)
+	(gr_arc
+		(start 197.6 51.6)
+		(mid 198.731371 52.068629)
+		(end 199.2 53.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f375a5ec-fee1-463f-bc0c-3a963b2c334f")
+	)
+	(gr_line
+		(start 199.2 53.2)
+		(end 199.2 145.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fdb5aae3-77a7-48fe-9e93-a45885da4bf9")
+	)
+	(gr_rect
+		(start 103.2 51.4)
+		(end 113.2 147.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "81d6b4c7-74a1-4ad1-8520-3c618d5a34ba")
+	)
+	(gr_rect
+		(start 189.2 51.4)
+		(end 199.2 147.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "edeb2ad4-0ec3-43cf-8c3d-968bd550e5ee")
+	)
+	(gr_rect
+		(start 101.2 49.4)
+		(end 201.2 149.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "f428b581-051a-4e89-aeec-f359ed907c90")
+	)
+	(gr_text "Keep outer 4 screw holes for back and front, \nAnd inner 4 screw holes for sides"
+		(at 203.2 72.4 0)
+		(layer "User.1")
+		(uuid "2079a16c-d0b6-4d59-833c-c2aae961799a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+)
